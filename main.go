@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Camypaper/cmd"
+	"github.com/Camypaper/spica/cmd"
 )
 
 func main() {
