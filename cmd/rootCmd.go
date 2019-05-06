@@ -19,7 +19,6 @@ func rootCmd() *cobra.Command {
 
 			logrus.SetFormatter(&logrus.TextFormatter{ForceColors: true})
 			logrus.SetOutput(colorable.NewColorableStdout())
-			println(verbose)
 			if verbose {
 				logrus.SetLevel(logrus.DebugLevel)
 			} else {
