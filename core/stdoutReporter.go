@@ -28,11 +28,14 @@ type StdoutReporter struct {
 ReportStart initialize progress bar.
 */
 func (reporter *StdoutReporter) ReportStart(job libra.Job) {
+	reporter.success = 0
+	reporter.fail = 0
 	reporter.all = len(job.Subtasks())
 	reporter.bar = pb.StartNew(reporter.all)
 	reporter.target = job.Name()
 	tmpl := fmt.Sprintf(`%-12s: {{counters . }} {{bar . "[" "#" "#" " " "]" | green}} `, reporter.target)
 	reporter.bar.SetTemplateString(tmpl)
+	reporter.dic = sync.Map{}
 }
 
 /*
