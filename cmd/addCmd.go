@@ -44,9 +44,9 @@ func addGenCmd() *cobra.Command {
 
 func addAnsCmd() *cobra.Command {
 	return &cobra.Command{
-		Use:   "gen",
-		Short: "Add generator to the problem",
-		Long:  "Add generator to the problem",
+		Use:   "ans",
+		Short: "Add answer to the problem",
+		Long:  "Add answer to the problem",
 		Run: func(cmd *cobra.Command, args []string) {
 			problem, err := core.LoadProblem()
 			if err != nil {
@@ -110,7 +110,7 @@ func setSolCmd() *cobra.Command {
 func setChkCmd() *cobra.Command {
 
 	return &cobra.Command{
-		Use:   "sol",
+		Use:   "chk",
 		Short: "Set Checker to the problem",
 		Long:  "Set Checker to the problem",
 		Run: func(cmd *cobra.Command, args []string) {
