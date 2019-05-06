@@ -62,6 +62,7 @@ func generate(problem Problem) error {
 			}
 		}
 	}
+	logrus.WithField("problem", problem).Info("Succeeded to save problem")
 	return nil
 }
 
