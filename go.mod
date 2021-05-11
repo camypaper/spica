@@ -3,7 +3,7 @@ module github.com/camypaper/spica
 go 1.16
 
 require (
-	github.com/camypaper/libra v0.0.0-20210511115553-fe3e12cb4bb3
+	github.com/camypaper/libra v1.0.0
 	github.com/mattn/go-colorable v0.1.8
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/pelletier/go-toml v1.9.0
