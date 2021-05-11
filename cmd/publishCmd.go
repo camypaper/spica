@@ -5,10 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Camypaper/libra"
-	"github.com/Camypaper/spica/core"
-	"github.com/Camypaper/spica/judge"
-	"github.com/Sirupsen/logrus"
+	"github.com/camypaper/libra"
+	"github.com/camypaper/spica/core"
+	"github.com/camypaper/spica/judge"
+	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )
 

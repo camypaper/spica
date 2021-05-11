@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/Camypaper/libra"
-	"github.com/Camypaper/spica/core"
-	"github.com/Camypaper/spica/judge"
-	"github.com/Sirupsen/logrus"
+	"github.com/camypaper/libra"
+	"github.com/camypaper/spica/core"
+	"github.com/camypaper/spica/judge"
+	"github.com/sirupsen/logrus"
 )
 
 func generate(worker judge.SpicaWorker) ([]core.Testcase, error) {

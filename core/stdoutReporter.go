@@ -6,9 +6,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Camypaper/libra"
+	"github.com/camypaper/libra"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	pb "gopkg.in/cheggaaa/pb.v2"
 )
 

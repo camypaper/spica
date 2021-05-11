@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/Camypaper/spica/core"
-	"github.com/Sirupsen/logrus"
+	"github.com/camypaper/spica/core"
+	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )
 

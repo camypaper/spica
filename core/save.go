@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	toml "github.com/pelletier/go-toml"
 	"github.com/spf13/viper"
 )

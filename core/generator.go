@@ -3,9 +3,9 @@ package core
 import (
 	"fmt"
 
-	"github.com/Camypaper/libra"
+	"github.com/camypaper/libra"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 /*

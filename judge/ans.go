@@ -3,9 +3,9 @@ package judge
 import (
 	"path/filepath"
 
-	"github.com/Camypaper/libra"
-	"github.com/Camypaper/spica/core"
-	"github.com/Sirupsen/logrus"
+	"github.com/camypaper/libra"
+	"github.com/camypaper/spica/core"
+	"github.com/sirupsen/logrus"
 )
 
 /*

@@ -1,8 +1,8 @@
 package judge
 
 import (
-	"github.com/Camypaper/libra"
-	"github.com/Camypaper/spica/core"
+	"github.com/camypaper/libra"
+	"github.com/camypaper/spica/core"
 )
 
 /*

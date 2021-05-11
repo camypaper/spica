@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/Camypaper/libra"
+	"github.com/camypaper/libra"
 )
 
 /*

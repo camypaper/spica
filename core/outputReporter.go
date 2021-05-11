@@ -3,7 +3,7 @@ package core
 import (
 	"sync"
 
-	"github.com/Camypaper/libra"
+	"github.com/camypaper/libra"
 )
 
 /*

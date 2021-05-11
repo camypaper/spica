@@ -3,8 +3,8 @@ package core_test
 import (
 	"testing"
 
-	"github.com/Camypaper/libra"
-	"github.com/Camypaper/spica/core"
+	"github.com/camypaper/libra"
+	"github.com/camypaper/spica/core"
 )
 
 type fake struct {

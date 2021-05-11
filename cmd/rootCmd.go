@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	colorable "github.com/mattn/go-colorable"
 	"github.com/spf13/cobra"
 )
